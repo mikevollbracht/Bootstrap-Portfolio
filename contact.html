@@ -1,79 +1,100 @@
-<!DOCTYPE html>
-<html lang=“en-us”>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Mike's Portfolio - Contact</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head> 
-	<meta charset="UTF-8">
-    <title>Mike's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#" id="nav-name">Mike Vollbracht</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-</head>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About <span class="sr-only">About (Current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">Portfolio</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact <span class="sr-only">Contact</span></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<body background="./assets/images/cork_1.png">
-	<header>
-		<div class="container">
-			<div id="title">
+    <br>
+    <br>
 
-				<h1>Mike Vollbracht</h1>
-			
-			</div>
-			
-			<nav>
-				<ul>
-					<li><a href="index.html">About</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li class="current"><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+    <div class="main-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-12">
+            <div class="card border-0">
+              <h4 class="card-header text-white bg-dark">Contact</h4>
+              <div class="card-body">
+              
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="contact-name" placeholder="Jane Smith">
+                  </div>
 
-	<div class="main-content">
-		<div class="container">
-			<div class="focus"> 
-				
-				<h2>Contact</h2>
-				
+                  <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="contact-email" placeholder="name@example.com">
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="contact-message" rows="6" placeholder="Message.."></textarea>
+                  </div>
 
-				<p>Name</p>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
 
-				<form>
-					<input type="text" name="name" placeholder="John Smith">
-				</form>
+          <div class="col-md-4 col-sm-12">
+            <div class="card border-0">
+              <h4 class="card-header text-center text-white bg-dark">Connect With Me</h4>
+              <div class="card-body">
+                <ul class="list-inline d-flex justify-content-center">
+                  <li class="list-inline-item"><a href="https://github.com/mikevollbracht" target="_blank"><img src="./assets/images/github.png" alt="github" class="img-fluid icon"></a></li>
+                  <li class="list-inline-item"><a href="https://www.linkedin.com/in/michael-vollbracht-21b8135a/" target="_blank"><img src="./assets/images/linkedin.png" alt="linked in" class="img-fluid icon"></a></li>
+                  <li class="list-inline-item"><a href="https://stackoverflow.com/users/8512718/mike-v?tab=profile" target="_blank"><img src="./assets/images/stack.png" alt="stack overflow " class="img-fluid icon"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-				<p>Email</p>
+    <footer class="sticky-footer bg-dark text-white">
+        <div class="container">
+          <p class="text-muted text-center">Copyright &copy; 2017 Mike Vollbracht</p>
+        </div>
+    </footer>
 
-				<form>
-					<input type="email" name="email" placeholder="Example@gmail.com">
-				</form>
-
-				<p>Message</p>
-
-				<textarea name="message" placeholder="Message..." rows="10"></textarea>
-				
-				<button type="submit" class="button">Sumbit</button>
-	
-			</div>
-
-			<div class="contact">
-				
-				<h3>Connect with Me</h3>
-
-				<div class="icons">
-					<ul>
-						<li><a href="https://github.com/mikevollbracht" target="_blank"><img src="./assets/images/github.png" alt="github"></a></li>
-						<li><a href="https://www.linkedin.com/in/michael-vollbracht-21b8135a/" target="_blank"><img src="./assets/images/linkedin.png" alt="linked in"></a></li>
-						<li><a href="https://stackoverflow.com/users/8512718/mike-v?tab=profile" target="_blank"><img src="./assets/images/stack.png" alt="stack overflow "></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<footer>
-		<div class="container">
-			
-			<p>Copyright &copy; 2017 Mike Vollbracht</p>
-
-		</div>
-	</footer>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
