@@ -12,6 +12,14 @@ body {
   opacity: .7;
 }
 
+.my-card-header, .my-button {
+  background-color: #17b491;
+}
+
+/*Nav*/
+.my-nav {
+  background-color: #273646;
+}
 
 /*About Me*/
 .my-pic {
@@ -38,6 +46,7 @@ body {
 
 .sticky-footer {
   height: 50px;
+  background-color: #273646;
 }
 .sticky-footer p {
   font-size: 12px;
