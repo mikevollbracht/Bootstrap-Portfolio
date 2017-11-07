@@ -7,14 +7,18 @@ body {
   margin-bottom: 20px;
 }
 
-/*Header*/
+#hover:hover {
+  background-color: grey;
+  opacity: .7;
+}
+
 
 /*About Me*/
-.about-img {
-  width: 60%;
-  float: left;
-  margin: 0px 15px 15px 0px;
-}
+.my-pic {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
 
 /*Connect With Me*/
 .icon {
@@ -39,3 +43,24 @@ body {
   font-size: 12px;
   padding-top: 16px;
 }
+
+/*Media Queries*/
+
+/*Medium devices (tablets, 768px and up))*/
+@media (min-width: 768px) {
+  .my-pic {
+    max-width: 60%;
+    height: auto;
+    float: left;
+    margin: 0px 15px 15px 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
