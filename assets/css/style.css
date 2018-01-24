@@ -7,7 +7,7 @@ body {
   margin-bottom: 20px;
 }
 
-#hover:hover {
+.hover:hover {
   background-color: grey;
   opacity: .7;
 }
